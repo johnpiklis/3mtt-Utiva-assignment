@@ -1,0 +1,9 @@
+# HOW TO BUILD TEMPLATE SITE WITH IT'S BASE OFF APACHE AND RUN THE DOCKER IMAGE 
+
+
+
+# DOCKERFILE
+FROM httpd:alpine3.19
+
+COPY . /usr/local/apache2/htdocs
+

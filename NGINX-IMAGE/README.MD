@@ -1,0 +1,6 @@
+# HOW TO BUILD TEMPLATE SITE WITH IT'S BASE OFF APACHE AND RUN THE DOCKER IMAGE
+
+FROM nginx:mainline-alpine3.18
+
+COPY . /usr/share/nginx/html
+
